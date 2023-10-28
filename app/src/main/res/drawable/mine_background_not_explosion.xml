@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Задний фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <solid android:color="@color/light_grey" />
+        </shape>
+    </item>
+    <!-- Деактивированная мина -->
+    <item android:drawable="@drawable/flag_and_mine" />
+</layer-list>
